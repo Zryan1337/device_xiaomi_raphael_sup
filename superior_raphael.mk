@@ -16,6 +16,7 @@ $(call inherit-product, device/xiaomi/raphael/device.mk)
 $(call inherit-product, vendor/superior/config/common.mk)
 
 # Superior
+TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_BLUR := true
 SUPERIOR_UDFPS_ANIMATIONS := true
 SYSTEM_OPTIMIZE_JAVA := true
